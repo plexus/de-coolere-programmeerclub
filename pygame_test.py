@@ -3,13 +3,14 @@ import pygame
 pygame.init()
 
 # CREATING CANVAS
-canvas = pygame.display.set_mode((500, 500))
+canvas = pygame.display.set_mode((700, 700))
 
 # TITLE OF CANVAS
 pygame.display.set_caption("My Board")
 exit = False
 
-background=(200,100,0)
+background=(255, 0, 255)
+# (rood, groen, blauw) elk van 0 tot 255
 
 while not exit:
     canvas.fill(background)
