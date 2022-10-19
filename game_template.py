@@ -1,5 +1,7 @@
 import pygame
 
+# https://www.pygame.org/docs/
+
 # Constanten
 TITLE="Cool spel"
 WINDOW_SIZE=(800,600)
