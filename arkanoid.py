@@ -43,7 +43,6 @@ def update_ball(ball):
   ball["x"] = ball["x"] + ball["velocity"]["x"]
   ball["y"] = ball["y"] + ball["velocity"]["y"]
 
-
 def bots_x(ball):
   ball["velocity"]["x"]*=-1
   ball["x"]+=ball["velocity"]["x"]
